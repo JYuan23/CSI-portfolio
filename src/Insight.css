@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+.links {
+
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+    background-color: aquamarine;
+    text-align: center;
+    border: 1px solid black;
+  }
+  
+.insight {
+    border: 1px solid gray;
+    padding: 20px;
+  }
+  

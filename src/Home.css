@@ -43,6 +43,14 @@
   
   .text{
     padding-top: 30px;
+    font-family: 'Inter', sans-serif;
     margin-left: 50px;
+    margin-right: 50px;
+
+  }
+
+  p{
+    text-indent: 50px;
+    
   }
   

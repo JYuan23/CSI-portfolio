@@ -1,0 +1,31 @@
+.container {
+    width: 80%;
+    margin: 2px;
+ }
+ 
+ .personas {
+    display: flex;
+    justify-content: space-between;
+ }
+ 
+ .cols {
+    flex: 1;
+    text-align: center;
+ }
+ 
+ #image img{
+    width: 50%;
+    height: auto; 
+
+  }
+
+  .personaLinks {
+   margin: 10px;
+   text-decoration: none;
+   color: green;
+   font-weight: bold;
+   }
+
+   #activeLink{
+      font-size: 20px;
+   }

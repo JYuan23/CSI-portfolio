@@ -17,12 +17,11 @@ a {
 }
 
 
-
 .bot-row{
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: auto;
+  /* margin: auto; */
   width: 100%;
 }
 

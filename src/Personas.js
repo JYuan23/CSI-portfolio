@@ -2,15 +2,15 @@ import { Link, useParams } from 'react-router-dom'
 import React from 'react';
 import './Personas.css';
 import oswald from './oswald.jpeg'
-
-
+import buzz from './buzz.jpeg'
+import candice from './candice.png'
 
 function DefaultPersona(){
     return (
         <div className="bgContainer">
           <div className="divContainer">
             <div>
-              <div className = "linkContainer">
+              <div className = "pLinkContainer">
               <Link className="personaLinks" to="/personas/1">Persona 1</Link>
               <Link className="personaLinks" to="/personas/2">Persona 2</Link>
               <Link className="personaLinks" to="/personas/3">Persona 3</Link>
@@ -27,7 +27,7 @@ function Persona1(){
         <div className="bgContainer">
           <div className="divContainer">
             <div>
-                <div className = "linkContainer">
+                <div className = "pLinkContainer">
                     <Link className="personaLinks" id="activeLink" to="/personas/1">Persona 1</Link>
                     <Link className="personaLinks" to="/personas/2">Persona 2</Link>
                     <Link className="personaLinks" to="/personas/3">Persona 3</Link>
@@ -55,7 +55,7 @@ function Persona2(){
         <div className="bgContainer">
           <div className="divContainer">
             <div>
-                <div className = "linkContainer">
+                <div className = "pLinkContainer">
                     <Link className="personaLinks"  to="/personas/1">Persona 1</Link>
                     <Link className="personaLinks" id="activeLink" to="/personas/2">Persona 2</Link>
                     <Link className="personaLinks" to="/personas/3">Persona 3</Link>
@@ -65,7 +65,7 @@ function Persona2(){
                         <p>This is some text in the first column.</p>
                     </div>
                     <div className="cols" id="image">
-                        2
+                        <img src={buzz}></img>
                     </div>
                     <div className="cols">
                         <p>This is some text in the third column.</p>
@@ -82,7 +82,7 @@ function Persona3(){
         <div className="bgContainer">
           <div className="divContainer">
             <div>
-                <div className = "linkContainer">
+                <div className = "pLinkContainer">
                     <Link className="personaLinks" to="/personas/1">Persona 1</Link>
                     <Link className="personaLinks" to="/personas/2">Persona 2</Link>
                     <Link className="personaLinks" id="activeLink" to="/personas/3">Persona 3</Link>
@@ -92,7 +92,7 @@ function Persona3(){
                         <p>This is some text in the first column.</p>
                     </div>
                     <div className="cols" id="image">
-                        <img src={oswald} alt="Image"></img>
+                        <img src={candice} alt="Image"></img>
                     </div>
                     <div className="cols">
                         <p>This is some text in the third column.</p>

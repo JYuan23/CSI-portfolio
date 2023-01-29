@@ -9,8 +9,8 @@
 
 .divBG {
     position: absolute;
+    overflow: scroll;
     background: white;
-    overflow: hidden;
     background-repeat: no-repeat;
     margin-left: 0px;
     left: 0px;

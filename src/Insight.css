@@ -19,13 +19,20 @@
   }
   
   .linkContainer {
+    position: fixed;
+    left: 40%;
+    right: 40%;
+    top: 20%;
   display: flex;
   align-items: center;
   justify-content: center;
+
   }
   
   .links {
+  position: flex;
   margin: 10px;
+
   text-decoration: none;
   color: green;
   font-weight: bold;
@@ -59,9 +66,13 @@
 }
 
   .insight {
-  position: flex;
+  position: fixed;
+  top: 25%;
+  left: 5%;
+  right: 5%;
   margin: 20px;
-  padding: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   border: 1px solid gray;
   width: 90%;
   text-align: left;

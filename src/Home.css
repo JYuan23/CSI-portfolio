@@ -31,14 +31,14 @@
   
   .textBG{
     width: 70%;
-    height: 100%;
+    height: auto;
+    overflow: auto;
     margin-left: 15%;
     margin-right: 15%;
     margin-top: 10%;
     background: rgba(157,226,243,1);
-    background: linear-gradient(0deg , rgba(255,255,255) 55%, rgba(157,226,243,1) 77%);  
+    background: linear-gradient(0deg , rgba(255,255,255, 0.8) 55%, rgba(157,226,243,0.8) 77%);  
     border-radius: 15px;
-    opacity: 80%;
   }
   
   .text{
@@ -53,4 +53,3 @@
     text-indent: 50px;
     
   }
-  

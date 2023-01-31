@@ -10,6 +10,8 @@ const Insight = (props) => {
           <div className = "linkContainer">
           <Link className="links" to="/insights/1">Insight 1</Link>
           <Link className="links" to="/insights/2">Insight 2</Link>
+          <Link className="links" to="/insights/3">Insight 3</Link>
+
           </div>
           <div className="insight">
             <div> {props.text} </div>
